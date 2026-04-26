@@ -247,24 +247,24 @@
 </div>
 
 <!-- МОДАЛЬНЫЕ ОКНА (рендерятся динамически) -->
-<div id="modal-container"></div>
-
-<script>
-(function(){
-'use strict';
-
-const firebaseConfig = {
-  apiKey: "AIzaSyAk7LKFocyEzjBI8oWkaZNBIfoFTV1mI_c",
-  authDomain: "skycord-ec8c1.firebaseapp.com",
-  projectId: "skycord-ec8c1",
-  storageBucket: "skycord-ec8c1.firebasestorage.app",
-  messagingSenderId: "842442031046",
-  appId: "1:842442031046:web:62f44d0f3057e8e6c33cc7",
-  databaseURL: "https://skycord-ec8c1-default-rtdb.firebaseio.com"
-};
-
-firebase.initializeApp(firebaseConfig);
-const db = firebase.database();
+          <div id="modal-container"></div>
+          
+          <script>
+          (function(){
+          'use strict';
+          
+          const firebaseConfig = {
+            apiKey: "AIzaSyAk7LKFocyEzjBI8oWkaZNBIfoFTV1mI_c",
+            authDomain: "skycord-ec8c1.firebaseapp.com",
+            projectId: "skycord-ec8c1",
+            storageBucket: "skycord-ec8c1.firebasestorage.app",
+            messagingSenderId: "842442031046",
+            appId: "1:842442031046:web:62f44d0f3057e8e6c33cc7",
+            databaseURL: "https://skycord-ec8c1-default-rtdb.firebaseio.com"
+          };
+          
+          firebase.initializeApp(firebaseConfig);
+         const db = firebase.database();
 
 // ==================== СОСТОЯНИЕ ====================
 let currentUser = null;
